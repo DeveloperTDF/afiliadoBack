@@ -4,7 +4,7 @@ from django.db import models
 class Afiliado (models.Model):
     fecha       =   models.DateField()
     nombre      =   models.CharField(max_length=20)
-    direccion   =   models.CharField(max_length=20)
+    direccion   =   models.CharField(max_length=30)
     telefono    =   models.CharField(max_length=10)
 
     def __str__(self):
