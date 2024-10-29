@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'afiliados',
     'rest_framework',
     'corsheaders',
+    'trabajos',
 ]
 
 MIDDLEWARE = [
